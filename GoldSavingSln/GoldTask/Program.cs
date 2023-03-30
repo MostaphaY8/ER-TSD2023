@@ -102,7 +102,44 @@ namespace GoldTask
             Console.WriteLine($"Average price of gold in 2022: {avgPrice2022:C2}");
         }
 
+        public static async void part9()
+        {
+            Console.WriteLine("When would it be best to buy gold and sell it between 2019 and 2022? What would be the return on investment?");
+            var goldPriceService = new GoldClient();
 
+            DateTime startDate = new DateTime(2019, 01, 01);
+            DateTime endDate = new DateTime(2019, 12, 31);
+            List<GoldPrice> prices = await goldPriceService.GetGoldPrices(startDate, endDate);
+
+            startDate = new DateTime(2020, 01, 01);
+            endDate = new DateTime(2020, 12, 31);
+            prices = prices.Concat(await goldPriceService.GetGoldPrices(startDate, endDate)).ToList();
+
+            startDate = new DateTime(2021, 01, 01);
+            endDate = new DateTime(2021, 12, 31);
+            prices = prices.Concat(await goldPriceService.GetGoldPrices(startDate, endDate)).ToList();
+
+            startDate = new DateTime(2022, 01, 01);
+            endDate = new DateTime(2022, 12, 31);
+            prices = prices.Concat(await goldPriceService.GetGoldPrices(startDate, endDate)).ToList();
+
+            double minPrice = prices.Min(p => p.Price); 
+            double maxPrice = prices.Max(p => p.Price); 
+
+            DateTime minDate = prices.First(p => p.Price == minPrice).Date;
+            DateTime maxDate = prices.First(p => p.Price == maxPrice).Date;
+
+            double investment = 1000; 
+            double buyPrice = minPrice;
+            double sellPrice = maxPrice;
+            double roi = ((sellPrice - buyPrice) / buyPrice) * 100;
+            double profit = investment * (roi / 100);
+
+            Console.WriteLine($"best time to buy gold was on {minDate.ToString("yyyy-MM-dd")} at a price of {minPrice:C2}");
+            Console.WriteLine($"best time to sell gold was on {maxDate.ToString("yyyy-MM-dd")} at a price of {maxPrice:C2}");
+            Console.WriteLine($"you investe {investment:C2}, your return is {roi:F2}%");
+            Console.WriteLine($" profit : {profit:C2}");
+        }
 
         static void Main(string[] args)
         {
@@ -110,6 +147,7 @@ namespace GoldTask
              Earn5Per();
              part4();
              part8();
+             part9();
         }
 
         
