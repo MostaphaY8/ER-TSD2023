@@ -76,13 +76,40 @@ namespace GoldTask
             }
         }
 
+        public static async void part8()
+        {
+            Console.WriteLine("What are the averages of gold prices in 2020, 2021, 2022?");
+
+            var goldPriceService = new GoldClient();
+
+            DateTime startDate2020 = new DateTime(2020, 01, 01);
+            DateTime endDate2020 = new DateTime(2020, 12, 31);
+            DateTime startDate2021 = new DateTime(2021, 01, 01);
+            DateTime endDate2021 = new DateTime(2021, 12, 31);
+            DateTime startDate2022 = new DateTime(2022, 01, 01);
+            DateTime endDate2022 = new DateTime(2022, 12, 31);
+
+            List<GoldPrice> prices2020 = await goldPriceService.GetGoldPrices(startDate2020, endDate2020);
+            List<GoldPrice> prices2021 = await goldPriceService.GetGoldPrices(startDate2021, endDate2021);
+            List<GoldPrice> prices2022 = await goldPriceService.GetGoldPrices(startDate2022, endDate2022);
+
+            var avgPrice2020 = (from x in prices2020 select x.Price).Average();
+            var avgPrice2021 = (from x in prices2021 select x.Price).Average();
+            var avgPrice2022 = (from x in prices2022 select x.Price).Average();
+
+            Console.WriteLine($"Average price of gold in 2020: {avgPrice2020:C2}");
+            Console.WriteLine($"Average price of gold in 2021: {avgPrice2021:C2}");
+            Console.WriteLine($"Average price of gold in 2022: {avgPrice2022:C2}");
+        }
+
 
 
         static void Main(string[] args)
         {
              TopAndLow3();
-            // Earn5Per();
-           //  part4();
+             Earn5Per();
+             part4();
+             part8();
         }
 
         
