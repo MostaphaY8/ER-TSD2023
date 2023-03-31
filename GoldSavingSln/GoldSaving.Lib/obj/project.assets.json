@@ -2756,11 +2756,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Erasmus\\TSD\\GoldSavingSln\\GoldSavingSln\\GoldSaving.Lib\\GoldSaving.Lib.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Erasmus\\TSD\\GoldSavingSln\\ER-TSD2023\\GoldSavingSln\\GoldSaving.Lib\\GoldSaving.Lib.csproj",
       "projectName": "GoldSaving.Lib",
-      "projectPath": "C:\\Users\\user\\Desktop\\Erasmus\\TSD\\GoldSavingSln\\GoldSavingSln\\GoldSaving.Lib\\GoldSaving.Lib.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Erasmus\\TSD\\GoldSavingSln\\ER-TSD2023\\GoldSavingSln\\GoldSaving.Lib\\GoldSaving.Lib.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Erasmus\\TSD\\GoldSavingSln\\GoldSavingSln\\GoldSaving.Lib\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Erasmus\\TSD\\GoldSavingSln\\ER-TSD2023\\GoldSavingSln\\GoldSaving.Lib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hv6qTszKP4PGr5ZVqfTGpBvqIwcxBqjj2vN8hL9JsOoWA0bHel7lj/NIXHXjpI26wV/LRLBhVAjEIvUYpO51Pw==",
+  "dgSpecHash": "CQQwRytjRVypSu8pluv7aK/SELR23TFTRj4xnfDJQmtN9E/2CCot4rv4gHwlVPPMtCuqBOVPLDme7V11lPetDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Erasmus\\TSD\\GoldSavingSln\\GoldSavingSln\\GoldSaving.Test\\GoldSaving.Test.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Erasmus\\TSD\\GoldSavingSln\\ER-TSD2023\\GoldSavingSln\\GoldSaving.Test\\GoldSaving.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\Erasmus\TSD\GoldSavingSln\ER-TSD2023\GoldSavingSln\GoldSaving.Lib\bin\Debug\net6.0\GoldSaving.Lib.deps.json
+C:\Users\user\Desktop\Erasmus\TSD\GoldSavingSln\ER-TSD2023\GoldSavingSln\GoldSaving.Lib\bin\Debug\net6.0\GoldSaving.Lib.dll
+C:\Users\user\Desktop\Erasmus\TSD\GoldSavingSln\ER-TSD2023\GoldSavingSln\GoldSaving.Lib\bin\Debug\net6.0\GoldSaving.Lib.pdb
+C:\Users\user\Desktop\Erasmus\TSD\GoldSavingSln\ER-TSD2023\GoldSavingSln\GoldSaving.Lib\obj\Debug\net6.0\GoldSaving.Lib.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Erasmus\TSD\GoldSavingSln\ER-TSD2023\GoldSavingSln\GoldSaving.Lib\obj\Debug\net6.0\GoldSaving.Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Erasmus\TSD\GoldSavingSln\ER-TSD2023\GoldSavingSln\GoldSaving.Lib\obj\Debug\net6.0\GoldSaving.Lib.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Erasmus\TSD\GoldSavingSln\ER-TSD2023\GoldSavingSln\GoldSaving.Lib\obj\Debug\net6.0\GoldSaving.Lib.AssemblyInfo.cs
+C:\Users\user\Desktop\Erasmus\TSD\GoldSavingSln\ER-TSD2023\GoldSavingSln\GoldSaving.Lib\obj\Debug\net6.0\GoldSaving.Lib.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Erasmus\TSD\GoldSavingSln\ER-TSD2023\GoldSavingSln\GoldSaving.Lib\obj\Debug\net6.0\GoldSaving.Lib.dll
+C:\Users\user\Desktop\Erasmus\TSD\GoldSavingSln\ER-TSD2023\GoldSavingSln\GoldSaving.Lib\obj\Debug\net6.0\refint\GoldSaving.Lib.dll
+C:\Users\user\Desktop\Erasmus\TSD\GoldSavingSln\ER-TSD2023\GoldSavingSln\GoldSaving.Lib\obj\Debug\net6.0\GoldSaving.Lib.pdb
+C:\Users\user\Desktop\Erasmus\TSD\GoldSavingSln\ER-TSD2023\GoldSavingSln\GoldSaving.Lib\obj\Debug\net6.0\ref\GoldSaving.Lib.dll

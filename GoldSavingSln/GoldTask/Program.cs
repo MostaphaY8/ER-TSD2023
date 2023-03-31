@@ -1,6 +1,7 @@
 ﻿using GoldSaving.Lib;
 using GoldSaving.Lib.Model;
 using System.Diagnostics;
+using System.Xml.Linq;
 
 namespace GoldTask
 {
@@ -140,7 +141,18 @@ namespace GoldTask
             Console.WriteLine($"you investe {investment:C2}, your return is {roi:F2}%");
             Console.WriteLine($" profit : {profit:C2}");
         }
-
+        public static void SavePriceInXmlFile(IEnumerable<decimal> prices, string filePath)
+        {
+            XDocument doc = new XDocument();
+            XElement root = new XElement("Prices");
+            doc.Add(root);
+            foreach (decimal price in prices)
+            {
+                XElement priceElement = new XElement("Price", price);
+                root.Add(priceElement);
+            }
+            doc.Save(filePath);
+        }
         static void Main(string[] args)
         {
              TopAndLow3();
