@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AuoNENHKPG5Ue0n96kDqoub8Ckx7VjcVsfBA8EcnFnGNE3pIfz18TVAg8ebQwdu3cGHczkzUDs4uLq1RpjljSA==",
+  "dgSpecHash": "2DSbvCuDYWPOtpGpfE4OGY5T+ZG5yh65QfIKDH3RGSbIjteDTdoCO8PyabbFICyCZBZfWa8IHj7VxmvqT3s91Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Erasmus\\TSD\\GoldSavingSln\\GoldSavingSln\\GoldSaving.Lib\\GoldSaving.Lib.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Erasmus\\TSD\\GoldSavingSln\\ER-TSD2023\\GoldSavingSln\\GoldSaving.Lib\\GoldSaving.Lib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
